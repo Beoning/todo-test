@@ -1,0 +1,15 @@
+@mixin btn($color) {
+  height: 30px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: $color;
+  cursor: pointer;
+  color: #1d201f;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

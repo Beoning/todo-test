@@ -1,0 +1,24 @@
+@import '../../scss/mixins';
+
+.todoContainer {
+  max-width: 500px;
+  width: 100%;
+  padding: 10px;
+  background-color: #b2ef9b;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+
+  input {
+    font-size: 24px;
+    width: 100%;
+    height: calc(30px - 3.2px);
+    outline: none;
+  }
+
+  button {
+    @include btn(#8a4fff);
+  }
+}

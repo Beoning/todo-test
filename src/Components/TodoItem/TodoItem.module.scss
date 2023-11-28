@@ -1,0 +1,19 @@
+@import '../../scss/mixins';
+
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-size: 24px;
+    max-width: 430px;
+    width: 100%;
+    word-break: break-all;
+    white-space: normal;
+    border-bottom: 1px solid black;
+  }
+
+  button {
+    @include btn(#ef6351);
+  }
+}

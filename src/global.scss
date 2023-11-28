@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1d201f;
+  height: 100vh;
+}
+
+main {
+  background-color: #c3bef7;
+  padding: 30px;
+  width: 600px;
+  min-height: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+  h1 {
+    color: #ef6351;
+  }
+}
